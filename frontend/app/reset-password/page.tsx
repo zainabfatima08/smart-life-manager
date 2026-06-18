@@ -1,0 +1,3 @@
+
+import { Card } from '@/components/ui/card';import { Button } from '@/components/ui/button';
+export default function Reset(){return <main className="cosmic grid min-h-screen place-items-center p-6"><Card className="w-full max-w-md"><h1 className="text-3xl font-bold">Set new password</h1><form className="mt-6 space-y-4"><input type="password" placeholder="New password" className="w-full rounded-2xl bg-white/10 p-4 outline-none"/><Button className="w-full">Update password</Button></form></Card></main>}

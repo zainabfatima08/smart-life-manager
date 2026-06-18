@@ -1,0 +1,2 @@
+import * as React from 'react';import { cn } from '@/lib/utils';
+export function Button({className,...props}:React.ButtonHTMLAttributes<HTMLButtonElement>){return <button className={cn('rounded-full bg-white px-5 py-3 font-semibold text-slate-950 transition hover:scale-[1.02] disabled:opacity-50',className)} {...props}/>}
