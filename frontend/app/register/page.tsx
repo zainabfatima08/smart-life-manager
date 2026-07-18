@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'motion/react';
+import { Star } from 'lucide-react';
 import { AuthForm } from '@/components/auth-form';
 
 export default function Register() {
@@ -28,14 +29,19 @@ export default function Register() {
           <div className="auth-orb-large" />
           <div className="auth-orb-small" />
           <div className="auth-visual-content">
-            <div className="auth-pill"><span className="auth-pill-icon">↗</span>Level up</div>
+            <div className="auth-pill">
+              <div className="auth-pill-icon">
+                <Star size={20} fill="currentColor" />
+              </div>
+              Life OS
+            </div>
             <div>
               <p className="auth-visual-kicker">Fresh start</p>
               <h2 className="auth-visual-title">Design the life you can actually track.</h2>
               <p className="auth-visual-copy">Life OS turns daily check-ins into calm insights, future projections, and personal growth momentum.</p>
             </div>
             <div className="auth-checklist">
-              <p className="auth-checklist-label">Today’s setup</p>
+              <p className="auth-checklist-label">Start Today</p>
               <div className="auth-checklist-items">
                 {['Choose core habits', 'Log mood baseline', 'Set first goal'].map((item) => (
                   <div key={item} className="auth-checklist-item"><span className="auth-checklist-dot" />{item}</div>

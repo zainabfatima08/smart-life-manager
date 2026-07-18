@@ -1,0 +1,9 @@
+export { HeroSection } from './hero-section';
+export { TodayOverview } from './today-overview';
+export { LifeScoreDashboard } from './life-score';
+export { Insights } from './insights';
+export { ActivityTimeline } from './activity-timeline';
+export { CompanionWidget } from './companion-widget';
+export { AstroCompanion } from './companions/astro-companion';
+export { NovaCompanion } from './companions/nova-companion';
+export { EmberCompanion } from './companions/ember-companion';

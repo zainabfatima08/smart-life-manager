@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'motion/react';
+import { Star } from 'lucide-react';
 import { AuthForm } from '@/components/auth-form';
 
 export default function Login() {
@@ -17,7 +18,12 @@ export default function Login() {
           <div className="auth-orb-large" />
           <div className="auth-orb-small" />
           <div className="auth-visual-content">
-            <div className="auth-pill"><span className="auth-pill-icon">✦</span>Life OS</div>
+            <div className="auth-pill">
+              <div className="auth-pill-icon">
+                <Star size={20} fill="currentColor" />
+              </div>
+              Life OS
+            </div>
             <div>
               <p className="auth-visual-kicker">Welcome back</p>
               <h1 className="auth-visual-title">Plan your day with clarity.</h1>
@@ -40,7 +46,9 @@ export default function Login() {
             <p className="auth-copy">A beautiful control panel for your real life.</p>
             <AuthForm mode="login" />
             <p className="auth-switch">
-              <Link href="/forgot-password">Forgot password?</Link> · <Link href="/register">Create account</Link>
+              <Link href="/forgot-password">Forgot password?</Link>
+              <span className="auth-switch-separator">·</span>
+              <Link href="/register">Create account</Link>
             </p>
           </div>
         </div>

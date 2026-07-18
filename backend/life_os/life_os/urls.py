@@ -33,6 +33,17 @@ def api_root(request):
             'refresh': '/api/auth/token/refresh/',
         },
         'dashboard': '/api/dashboard/summary/',
+        'trackers': {
+            'habits': '/api/habits/',
+            'mood': '/api/mood/',
+            'sleep': '/api/sleep/',
+            'focus': '/api/focus/',
+            'expenses': '/api/expenses/',
+            'goals': '/api/goals/',
+            'reading': '/api/books/',
+            'journal': '/api/journal/',
+            'life_data': '/api/life-data/',
+        },
     })
 
 urlpatterns = [
@@ -43,4 +54,7 @@ urlpatterns = [
     path('api/auth/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/auth/', include('apps.accounts.urls')),
     path('api/dashboard/', include('apps.dashboard.urls')),
+    path('api/ai/', include('apps.ai_companion.urls')),
+    path('api/notifications/', include('apps.notifications.urls')),
+    path('api/', include('apps.trackers.urls')),
 ]
