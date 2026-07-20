@@ -1,6 +1,12 @@
 # Life OS
 
 A modern, premium life management system with mood tracking, sleep monitoring, and focus/productivity tools.
+## 🎥 Demo Video
+
+Watch the complete demo here:
+
+https://drive.google.com/drive/folders/1c2qzxuL4abTicbqBdEp1kbAwxLJsEtw9?usp=sharing
+
 
 ## Features
 
