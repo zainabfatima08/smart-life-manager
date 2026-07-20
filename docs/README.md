@@ -6,8 +6,11 @@ This directory contains comprehensive documentation for the Life Manager applica
 
 - **[Setup Guide](./setup/SETUP.md)** - Installation and environment configuration
 - **[API Reference](./api/)** - REST API documentation
-- **[Deployment Guide](./deployment/DEPLOYMENT.md)** - Production deployment instructions
-- **[Implementation Guides](./guides/)** - Feature implementation details
+## 🎥 Demo Videos
+
+Watch the complete demo here:
+https://drive.google.com/drive/folders/1c2qzxuL4abTicbqBdEp1kbAwxLJsEtw9?usp=sharing
+
 
 ## Directory Structure
 
